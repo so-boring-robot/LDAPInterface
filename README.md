@@ -47,5 +47,8 @@ python -m venv venv
 source venv/bin/activate   # Linux / macOS
 venv\Scripts\activate      # Windows
 pip install -r requirements.txt
+```
 
-NB : I'm not an UX Designer...So the frontend is made by Copilot. Thanks AI <3
+---
+
+## NB : I'm not an UX Designer...So the frontend is made by Copilot. Thanks AI <3
