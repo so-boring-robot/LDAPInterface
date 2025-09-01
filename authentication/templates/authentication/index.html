@@ -1,13 +1,17 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/x-icon" href="{% static 'images/favicon.ico' %}">
+  <link rel="icon" type="image/x-icon" sizes="32x32" href="{% static 'images/favicon_32x32.ico' %}">
+  <link rel="icon" type="image/x-icon" sizes="180x180" href="{% static 'images/apple-touch-icon.ico' %}">
   <title>Connexion - LDAPInterface</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-100 flex items-center justify-center min-h-screen">
-
   <div class="bg-white shadow-lg rounded-lg w-full max-w-md p-8">
     <!-- Logo / Titre -->
     <div class="flex flex-col items-center mb-6">
