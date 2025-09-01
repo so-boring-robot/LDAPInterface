@@ -132,3 +132,10 @@ STATICFILES_DIRS = [
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# LDAP3 variables
+
+LDAP_URI = os.getenv("LDAP_URI")
+BIND_DN = os.getenv("BIND_DN")
+BIND_PASSWORD = os.getenv("BIND_PASSWORD")
+BASE_DN = os.getenv("BASE_DN")
